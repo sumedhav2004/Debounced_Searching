@@ -22,3 +22,10 @@ body{
   align-items: center;
   justify-content: space-around;
 }
+
+@media(max-width:480px){
+  .top-container{
+    flex-direction: column;
+  }
+  
+}

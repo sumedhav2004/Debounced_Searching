@@ -9,7 +9,6 @@ const NonDebouncedSearchBar = ({hardcodedTitles}) => {
       const fetchedTitles = allNotes.map(note => note.title);
   
       const allTitles = [...fetchedTitles, ...hardcodedTitles];
-      console.log("inside : ",allTitles)
   
       const filtered = query === "" ? [] : allTitles.filter(title =>
         title.toLowerCase().includes(query.toLowerCase())

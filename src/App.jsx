@@ -17,7 +17,6 @@ function App() {
            })
          ).flat()
 
-  console.log(allTitles)
  
 
   return (
