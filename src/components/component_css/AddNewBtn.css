@@ -1,0 +1,8 @@
+.AddNewBtn{
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: olive;
+  color: white;
+  cursor: pointer;
+}

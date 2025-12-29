@@ -1,0 +1,19 @@
+.Note{
+  width: 18%;
+  height: 200px;
+  background-color: lightsalmon;
+  border-radius: 5%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap:10px;
+}
+
+.top-tier{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+

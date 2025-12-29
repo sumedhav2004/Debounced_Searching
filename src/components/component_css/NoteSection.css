@@ -1,0 +1,12 @@
+.Notes-container{
+  padding: 20px;
+  min-height: 80vh;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap:20px;
+
+}
