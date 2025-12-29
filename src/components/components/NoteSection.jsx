@@ -3,7 +3,7 @@ import "../component_css/NoteSection.css"
 import Note from "./Note.jsx"
 
 const NoteSection = ({hardcodedTitles}) => {
-  const notes = JSON.parse(localStorage.getItem("Notes"))
+  const notes = JSON.parse(localStorage.getItem("Notes")) || []
 
   
   return (
